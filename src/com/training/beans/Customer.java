@@ -12,6 +12,7 @@ public class Customer implements Serializable {
 	private String customerName;
 	private String email;
 	private long handPhone;
+	private String passWord;
 	
 	public Customer() {
 		super();
@@ -55,6 +56,17 @@ public class Customer implements Serializable {
 		this.handPhone = handPhone;
 	}
 	
+	public String getPassWord() {
+		return passWord;
+	}
+
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
+	}
+
+	public String getInfo(){
+		return "Message from GetInfo. ";
+	}
 	
 	
 	
