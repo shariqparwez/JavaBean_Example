@@ -15,12 +15,5 @@
 	Dear <jsp:getProperty property="customerName" name="custBean"/> <br> Successfully Registered!!
 	
 	<a href="Login.jsp">Login!</a>
-	
-	<%-- 
-	<%! String age="four"; %>
-	
-	<% int intAge=Integer.parseInt(age); %>
-	
-	Invoking Bean Method <c:out value="${custBean.getInfo() }"></c:out> --%>
 </body>
 </html>
